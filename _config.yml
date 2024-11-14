@@ -1,0 +1,25 @@
+title: "Walid Abdela"
+description: "Personal Portofolio site"
+baseurl: "" 
+url: "https://weloeffect.github.io"
+theme: minima 
+
+author:
+  name: "Walid Abdela"
+  email: "walidabdela98@gmail.cpm"
+  linkedin: "https://www.linkedin.com/in/walid-abdela"
+  github: "https://github.com/weloeffect"
+  resume: "Walid Abdela_CV.pdf" 
+
+social_links:
+  - name: "GitHub"
+    url: "https://github.com/weloeffect"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/walid-abdela"
+  - name: "Resume"
+    url: "Walid Abdela_CV.pdf"
+
+markdown: kramdown
+permalink: pretty
+
+exclude: ["README.md"]
