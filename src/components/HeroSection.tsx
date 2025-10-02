@@ -33,7 +33,7 @@ const HeroSection = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
+// test commit for upload
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden geometric-gradient-bg">
       
