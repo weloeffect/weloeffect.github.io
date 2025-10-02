@@ -44,7 +44,7 @@ const ProjectsSection = () => {
       id: 4,
       titleKey: 'projects.project4.title',
       descKey: 'projects.project4.desc',
-      tags: ['Python', 'LangChain/LangGraph', 'OpenAI', 'Gradio'],
+      tags: ['Python', 'LangChain/LangGraph', 'Groq', 'AWS'],
       github: 'https://github.com/weloeffect/crawlers',
       image: crawlerImg,
       gradient: 'from-purple-500 to-pink-600',

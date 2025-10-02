@@ -21,8 +21,8 @@ const translations = {
     
     // Hero Section
     'hero.name': 'Walid Abdela',
-    'hero.title': 'AI Research  ➕ Engineering ',
-    'hero.tagline': 'Bringing Intelligent Systems with Postive Real-World Impacts to Life 🦾',
+    'hero.title': 'AI Research ➕ Engineering',
+    'hero.tagline': 'Bringing Intelligent Systems with Positive Real-World Impacts to Life 🦾',
     'hero.cta': 'Get in Touch',
     
     // About Section
@@ -38,7 +38,7 @@ const translations = {
     // Projects Section
     'projects.title': 'Featured Projects',
     'projects.demo': 'Demo',
-    'projects.github': 'https://github.com/weloeffect/Cod3r',
+    'projects.github': 'GitHub',
     'projects.project1.title': 'Cod3r',
     'projects.project1.desc': 'AI agent capable of transforming a user request into a complete application.',
     'projects.project2.title': 'FounderMatch',
@@ -54,7 +54,7 @@ const translations = {
     'experience.workTitle': 'Work',
     'experience.eduTitle': 'Education',
     'experience.work1.title': 'AI Engineer',
-    'experience.work1.company': 'Independant',
+    'experience.work1.company': 'Independent',
     'experience.work1.period': 'May 2024 - Present',
     'experience.work1.description': 'Providing state-of-the-art AI solutions and consultancy.',
     'experience.work1.location': 'Remote',
@@ -101,7 +101,7 @@ Object-Oriented Programming
 Operating Systems
 Computer Graphics
 Calculus
-DIscrete Mathematics
+Discrete Mathematics
 Probability
 Data Structures`,
     'experience.edu2.activities': `ACM Programming Team
@@ -147,16 +147,16 @@ GDSC Club`,
     // Hero Section
     'hero.name': 'Walid Abdela',
     'hero.title': 'IA Recherche ➕ Ingénierie',
-    'hero.tagline': 'Apportant des systèmes intelligents qui ayant les impacts positifs sur le monde réel 🦾',
+    'hero.tagline': 'Donner vie à des systèmes intelligents à impact positif réel 🦾',
     'hero.cta': 'Voir les Projets',
     
     // About Section
-    'about.title': 'À Propos de Moi',
+    'about.title': 'À propos de moi',
     'about.bio': 'Je suis un Ingénieur IA spécialisé dans la création d\'applications intelligentes utilisant des technologies de pointe telles que l\'apprentissage automatique, le NLP, l\'apprentissage par renforcement et le développement IA full-stack.',
     'about.download': 'Télécharger CV',
     
     // Projects Section
-    'projects.title': 'Projets',
+    'projects.title': 'Projets phares',
     'projects.demo': 'Démo',
     'projects.github': 'GitHub',
     'projects.project1.title': 'Système de Logistique Alimenté par IA',
@@ -171,7 +171,7 @@ GDSC Club`,
     // Experience Section
     'experience.title': 'Expérience',
     'experience.subtitle': 'Mon parcours professionnel et académique',
-    'experience.workTitle': 'Professionnelle',
+    'experience.workTitle': 'Expérience',
     'experience.eduTitle': 'Formation',
     'experience.work1.title': 'Ingénieur IA',
     'experience.work1.company': 'Indépendant',
@@ -191,16 +191,20 @@ Modélisation et structuration de protocoles de communication inter-agents stock
 Migration d\'une base de code de JavaScript vers TypeScript, intégration de Redux Saga pour améliorer la vitesse de déploiement de 30% et réduire les bugs en production de 40%.
 Collaboration sur des pipelines CI/CD pour rationaliser les déploiements et améliorer les tests.`,
     'experience.work3.location': 'Addis-Abeba, Éthiopie',
-    'experience.edu1.degree': 'Master of Science en Systèmes Cyber-Physiques et Sociaux: Intelligence Artificielle et Internet des Objets',
+    'experience.edu1.degree': 'Master en systèmes cyber-physiques et sociaux : IA et Internet des objets',
     'experience.edu1.institution': 'Université de Lyon + École des Mines de Saint-Étienne + Université Jean Monnet',
     'experience.edu1.period': 'Septembre 2024 - Juillet 2026',
     'experience.edu1.location': 'Lyon / Saint-Étienne, France',
-    'experience.edu1.courses': `Systèmes multi-agents
+   'experience.edu1.courses': `Apprentissage automatique
+Représentation symbolique
+Systèmes multi‑agents
 Graphes de connaissances
 Apprentissage par renforcement
-Systèmes distribués`,
-    'experience.edu1.activities': `Club de robotique
-Groupe de recherche en IA`,
+Fouille de données
+Statistiques
+Internet des objets`,
+    'experience.edu1.activities': `Jumeaux numériques pour la santé
+IA pour l'industrie 4.0`,
     'experience.edu2.degree': 'Licence en Informatique',
     'experience.edu2.institution': 'Université d\'Addis-Abeba',
     'experience.edu2.period': 'Septembre 2018 - Juillet 2022',

@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { useLanguage } from '@/contexts/LanguageContext';
 import me2 from '@/assets/me2.png';
 import aboutMeImg from '@/assets/About_me.jpg';
+import cvEnglish from '@/assets/cvs/CV_English.pdf';
+import cvFrench from '@/assets/cvs/CV_francais.pdf';
 
 const HeroSection = () => {
   const { t } = useLanguage();
@@ -79,14 +82,30 @@ const HeroSection = () => {
               {/* <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" /> */}
             </Button>
             
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-border hover:border-primary transition-colors duration-300"
-            >
-              {/* <Download className="mr-2 h-5 w-5" /> */}
-              {t('about.download')}
-            </Button>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="border-border hover:border-primary transition-colors duration-300"
+                >
+                  <Download className="mr-2 h-5 w-5" />
+                  {t('about.download')}
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="center">
+                <DropdownMenuItem asChild>
+                  <a href={cvEnglish} download>
+                    Download CV (English)
+                  </a>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <a href={cvFrench} download>
+                    Télécharger le CV (Français)
+                  </a>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
 
           {/* Scroll Indicator */}
